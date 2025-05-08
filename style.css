@@ -614,16 +614,17 @@ p {
 		flex-direction: row-reverse;
 	}
 	#projects .project-item {
-		height: 300px;
+		height: 200px;
 		margin: 0;
 		width: 50%;
 		border-radius: 0;
 	}
 	#projects .all-projects .project-info {
-		height: 80%;
+		height: 50%;
+		width: 50%;
 	}
 	#projects .all-projects .project-img {
-		height: 80%;
+		height: 50%;
 	}
 	/* End Project */
 
