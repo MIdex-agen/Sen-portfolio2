@@ -622,6 +622,7 @@ p {
 	#projects .all-projects .project-info {
 		height: 50%;
 		width: 50%;
+		font-size: 12px;
 	}
 	#projects .all-projects .project-img {
 		height: 50%;
