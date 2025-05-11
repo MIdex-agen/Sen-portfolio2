@@ -343,10 +343,9 @@ p {
 	flex-direction: column;
 	padding: 30px;
 	border-radius: 10px;
-	background-image: url(./img/img-1.png);
+	background-image: url(./image/OIP.jpeg);
 	background-size: cover;
 	margin: 10px 5%;
-	position: relative;
 	z-index: 1;
 	overflow: hidden;
     cursor: pointer;
@@ -614,18 +613,16 @@ p {
 		flex-direction: row-reverse;
 	}
 	#projects .project-item {
-		height: 200px;
+		height: 400px;
 		margin: 0;
-		width: 50%;
+		width: 100%;
 		border-radius: 0;
 	}
 	#projects .all-projects .project-info {
-		height: 50%;
-		width: 50%;
-		font-size: 12px;
+		height: 100%;
 	}
 	#projects .all-projects .project-img {
-		height: 50%;
+		height: 100%;
 	}
 	/* End Project */
 
