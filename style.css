@@ -203,9 +203,10 @@ p {
 
 /* Hero Section */
 #hero {
-	background-image: url(./image/2.jpeg);
+	background-image: url(./image/cover\ 2.jpg);
 	background-size: cover;
 	background-position: top center;
+	position: relative;
 	z-index: 1;
 }
 #hero::after {
@@ -265,7 +266,6 @@ p {
 }
 
 /* End Hero Section */
-
 /* service section */
 #about .about {
 	flex-direction: column-reverse;
@@ -344,9 +344,9 @@ p {
 	padding: 30px;
 	border-radius: 10px;
 	background-image: url(./image/OIP.jpeg);
+	position: relative;
 	background-size: cover;
 	margin: 10px 5%;
-	z-index: 1;
 	overflow: hidden;
     cursor: pointer;
 }
@@ -598,34 +598,6 @@ p {
 	}
 	/* End Hero */
 
-	/* Services Section */
-	#services .service-bottom .service-item {
-		flex-basis: 45%;
-		margin: 2.5%;
-	}
-	/* End Services Section */
-
-	/* Project */
-	#projects .project-item {
-		flex-direction: row;
-	}
-	#projects .project-item:nth-child(even) {
-		flex-direction: row-reverse;
-	}
-	#projects .project-item {
-		height: 400px;
-		margin: 0;
-		width: 100%;
-		border-radius: 0;
-	}
-	#projects .all-projects .project-info {
-		height: 100%;
-	}
-	#projects .all-projects .project-img {
-		height: 100%;
-	}
-	/* End Project */
-
 	/* About */
 	#about .about {
 		flex-direction: row;
@@ -650,6 +622,36 @@ p {
 		text-align: left;
 	}
 	/* End About */
+	
+	/* Services Section */
+	#services .service-bottom .service-item {
+		flex-basis: 45%;
+		margin: 2.5%;
+	}
+	/* End Services Section */
+	
+	/* Project */
+	#projects .project-item {
+		flex-direction: row;
+	}
+	#projects .project-item:nth-child(even) {
+		flex-direction: row-reverse;
+	}
+	#projects .project-item {
+		height: 400px;
+		margin: 0;
+		width: 100%;
+		border-radius: 0;
+	}
+	#projects .all-projects .project-info {
+		height: 100%;
+	}
+	#projects .all-projects .project-img {
+		height: 100%;
+	}
+	/* End Project */
+
+	
 
 	/* contact  */
 	#contact .contact {
